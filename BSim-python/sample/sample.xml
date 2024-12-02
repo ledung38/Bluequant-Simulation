@@ -17,7 +17,7 @@
 		processor="../data_loader/binance_base_data_loader_v2.py" 
 		field_map="open=2 high=3 low=4 close=5 volume=6"
 		data_period="1h"
-        data_path="https://drive.google.com/drive/folders/16VuaSq75xfOi73LaCzxxVtQEqi75Tspn"
+        data_path="../../bluequant_daily"
 	/>
 
 	<Data id="ALL" processor="../data_loader/top_liquid_univ.py" days="20" min_adv="1e6"/>
